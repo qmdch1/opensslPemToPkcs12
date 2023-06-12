@@ -4,7 +4,10 @@ SSL 발급을 위해서 도메인이 반드시 필요하다.
 <br><br>
 
 # Let's Encrypt(certbot)<br>
-실행경로 Certbot/bin/certbot.exe
+실행경로 
+  Certbot/bin/certbot.exe
+  Certbot/run.bat
+  
 <br><br>
 ### 인증서 발급
   ```
