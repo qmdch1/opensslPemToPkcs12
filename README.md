@@ -37,6 +37,6 @@ SSL 발급을 위해서 도메인이 반드시 필요하다.
 
 ### 발급받은 pem파일을 pkcs12로 변환하는 command코드
   ```
-  openssl pkcs12 -export -inkey [privkey] -in [certificate] out [배출할키]
-  ex) openssl pkcs12 -export -inkey privkey.pem -in fullchain.pem out keystore.p12
+  openssl pkcs12 -export -inkey [privkey] -in [certificate] -out [배출할키]
+  ex) openssl pkcs12 -export -inkey privkey.pem -in fullchain.pem -out keystore.p12
   ```
