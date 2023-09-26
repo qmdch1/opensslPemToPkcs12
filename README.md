@@ -4,7 +4,7 @@
 
 - 첨부한 Certbot, OpenSSL 알집 파일을 풀어서, Windows - Program Files에 붙여넣기 한다.
 
-- 아래 소스를 실행하면 Cerbot의 경우 C:\Cerbot 이라는 폴더가 생기는데 C:\Certbot\live 에 해당 도메인 폴더가 생기며 폴더안에 키가 발급되어 있다.
+- 아래 명령어를 실행하면 C:\Cerbot 경로가 생성되는데 C:\Certbot\live 에 해당 도메인 폴더가 생기며 폴더안에 키가 발급되어 있다.
 
 - OpenSSL의 경우 명령어 입력시, 암호키를 상단에 표시한 live 도메인폴더 내의 파일을 이용해서 발급하면 된다.
 <br><br>
